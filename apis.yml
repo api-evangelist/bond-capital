@@ -1,0 +1,70 @@
+aid: bond-capital
+name: BOND
+description: >-
+  BOND is a San Francisco-based growth-stage venture capital firm founded in 2018 by
+  Mary Meeker, Mood Rowghani, Noah Knauf, and Juliet de Baubigny as a spinout of the
+  Kleiner Perkins Digital Growth Fund. BOND backs proven, high-growth internet and
+  software companies that have already established product-market fit, helping them
+  scale globally toward IPO readiness. The firm invests primarily at the late/growth
+  stage (roughly Series C and beyond) and is known for Mary Meeker's influential
+  multi-hundred-page Internet Trends and AI Trends reports. Sectors span artificial
+  intelligence, developer tools and infrastructure, fintech, health and biotech,
+  consumer and marketplaces, and frontier hardware. BOND has raised three funds -
+  $1.25B (2019), $2B (2021), and $2.5B (2022) - and its portfolio and track record
+  include Canva, OpenAI, Stripe, Postman, Netlify, Revolut, Ironclad, Applied
+  Intuition, DoorDash, Duolingo, and Uber.
+x-type: venture-capital
+x-category: Growth Equity
+tags:
+  - Venture Capital
+  - Growth Equity
+  - Late Stage
+  - Artificial Intelligence
+  - Developer Tools
+  - Fintech
+  - San Francisco
+  - Global
+image: https://www.bondcap.com/favicon.ico
+created: '2026-07-17'
+modified: '2026-07-17'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://www.bondcap.com
+  - type: Portfolio
+    url: https://www.bondcap.com/companies
+  - type: Portfolio
+    url: portfolio/bond-capital-portfolio.yml
+  - type: Team
+    url: https://www.bondcap.com/partners/mary-meeker/
+  - type: Team
+    url: team/bond-capital-team.yml
+  - type: Twitter
+    url: https://twitter.com/bondcap
+  - type: Contact
+    url: mailto:info@bondcap.com
+  - type: Features
+    data:
+      - 'Stage: Growth / Late stage (~Series C and beyond)'
+      - 'Sectors: AI, developer tools & infrastructure, fintech, health, consumer, marketplaces, frontier hardware'
+      - 'Geography: Global (HQ United States)'
+      - 'Fund I: $1.25B (2019)'
+      - 'Fund II: $2B (2021)'
+      - 'Fund III: $2.5B (2022)'
+      - 'Founded: 2018'
+      - 'HQ: San Francisco, CA'
+    sources:
+      - https://www.bondcap.com/companies
+      - https://techcrunch.com/2021/03/03/mary-meeker-bond-2-billion/
+      - https://www.axios.com/2022/04/01/bond-capital-raises-25-billion-third-fund
+    updated: '2026-07-17'
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+    url: https://apievangelist.com
+  - FN: APIs.json
+    url: https://apisjson.org
+  - FN: BOND
+    email: info@bondcap.com
+    url: https://www.bondcap.com
