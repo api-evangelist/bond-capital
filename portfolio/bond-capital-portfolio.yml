@@ -3,9 +3,9 @@ method: searched
 source: https://www.bondcap.com/companies
 summary:
   portfolio_total: 120
-  in_network: 70
-  api_providers: 42
-  missing: 50
+  in_network: 120
+  api_providers: 47
+  missing: 0
   stubs_created: 0
 companies:
 - name: Airbnb
@@ -24,7 +24,7 @@ companies:
   slug: akasa
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: AlphaSense
   url: https://alpha-sense.com
   sector: ai
@@ -41,8 +41,8 @@ companies:
   source: https://www.bondcap.com/companies
   slug: ankorstore
   in_network: true
-  is_api_provider: false
-  matched_by: name-slug
+  is_api_provider: true
+  matched_by: domain
 - name: Appdynamics
   url: https://appdynamics.com
   status: acquired
@@ -56,9 +56,10 @@ companies:
   sector: autonomy
   status: unknown
   source: https://www.bondcap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: appliedintuition
+  slug: appliedintuition
+  matched_by: domain
 - name: Asaas
   url: https://asaas.com
   sector: fintech
@@ -73,9 +74,10 @@ companies:
   sector: energy
   status: unknown
   source: https://www.bondcap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: base-power
+  slug: base-power
+  matched_by: domain
 - name: Baseten
   url: https://baseten.com
   sector: ai
@@ -89,9 +91,10 @@ companies:
   url: https://better.com
   status: ipo
   source: https://www.bondcap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: better
+  slug: better
+  matched_by: domain
 - name: Bitso
   url: https://bitso.com
   sector: fintech
@@ -124,9 +127,10 @@ companies:
   sector: edtech
   status: unknown
   source: https://www.bondcap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: byjus
+  slug: byjus
+  matched_by: domain
 - name: Canva
   url: https://canva.com
   sector: design
@@ -141,9 +145,10 @@ companies:
   sector: robotics
   status: unknown
   source: https://www.bondcap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: carbonrobotics
+  slug: carbonrobotics
+  matched_by: domain
 - name: Checkr
   url: https://checkr.com
   sector: hr-tech
@@ -158,9 +163,10 @@ companies:
   sector: identity
   status: unknown
   source: https://www.bondcap.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: clear
+  in_network: true
+  is_api_provider: true
+  slug: clear
+  matched_by: domain
 - name: Clickhouse
   url: https://clickhouse.com
   sector: developer-tools
@@ -174,9 +180,9 @@ companies:
   url: https://cloudhealthtech.com
   status: acquired
   source: https://www.bondcap.com/companies
-  slug: cloudhealth
+  slug: cloudhealth-technologies
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: Cockroachlabs
   url: https://cockroachlabs.com
@@ -192,31 +198,35 @@ companies:
   sector: healthtech
   status: acquired
   source: https://www.bondcap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: collectivemedical
+  slug: collectivemedical
+  matched_by: domain
 - name: Comulate
   url: https://comulate.com
   status: unknown
   source: https://www.bondcap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: comulate
+  slug: comulate
+  matched_by: domain
 - name: CRM Bonus
   url: https://crmbonus.com.br
   status: unknown
   source: https://www.bondcap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: crm-bonus
+  slug: crm-bonus
+  matched_by: domain
 - name: Dapperlabs
   url: https://dapperlabs.com
   sector: crypto
   status: unknown
   source: https://www.bondcap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: dapperlabs
+  slug: dapperlabs
+  matched_by: domain
 - name: Decagon
   url: https://decagon.ai
   sector: ai
@@ -265,9 +275,10 @@ companies:
   url: https://eon.io
   status: unknown
   source: https://www.bondcap.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: eon
+  in_network: true
+  is_api_provider: true
+  slug: eon
+  matched_by: domain
 - name: Epicgames
   url: https://epicgames.com
   status: unknown
@@ -281,16 +292,18 @@ companies:
   sector: healthtech
   status: unknown
   source: https://www.bondcap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: eucalyptus
+  slug: eucalyptus
+  matched_by: name-slug
 - name: Fabfitfun
   url: https://fabfitfun.com
   status: unknown
   source: https://www.bondcap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fabfitfun
+  slug: fabfitfun
+  matched_by: domain
 - name: Flink
   url: https://goflink.com
   sector: delivery
@@ -305,24 +318,27 @@ companies:
   sector: consumer
   status: unknown
   source: https://www.bondcap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: genies
+  slug: genies
+  matched_by: domain
 - name: Greenlight
   url: https://greenlightcard.com
   sector: fintech
   status: unknown
   source: https://www.bondcap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: greenlight
+  slug: greenlight
+  matched_by: name-slug
 - name: Grin
   url: https://grin.co
   status: unknown
   source: https://www.bondcap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: grin
+  slug: grin
+  matched_by: domain
 - name: Groupon
   url: https://groupon.com
   status: ipo
@@ -335,9 +351,10 @@ companies:
   url: https://halterhq.com
   status: unknown
   source: https://www.bondcap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: halter
+  slug: halter
+  matched_by: domain
 - name: Heygen
   url: https://heygen.com
   sector: ai
@@ -352,9 +369,10 @@ companies:
   sector: consumer
   status: unknown
   source: https://www.bondcap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hipcamp
+  slug: hipcamp
+  matched_by: domain
 - name: Hippo
   url: https://hippo.com
   sector: insurtech
@@ -369,9 +387,10 @@ companies:
   sector: ecommerce
   status: unknown
   source: https://www.bondcap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: houzz
+  slug: houzz
+  matched_by: domain
 - name: Hyperscience
   url: https://hyperscience.com
   sector: ai
@@ -385,25 +404,28 @@ companies:
   url: https://iconbuild.com
   status: unknown
   source: https://www.bondcap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: icon
+  slug: iconbuild
+  matched_by: domain
 - name: Indrive
   url: https://indrive.com
   sector: mobility
   status: unknown
   source: https://www.bondcap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: indrive
+  slug: indrive
+  matched_by: domain
 - name: Ineffable
   url: https://ineffable.ai
   sector: ai
   status: unknown
   source: https://www.bondcap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ineffable
+  slug: ineffable
+  matched_by: domain
 - name: Instacart
   url: https://instacart.com
   status: ipo
@@ -433,7 +455,7 @@ companies:
   url: https://jd.com
   status: ipo
   source: https://www.bondcap.com/companies
-  slug: jd-com
+  slug: jd-business
   in_network: true
   is_api_provider: false
   matched_by: domain
@@ -460,9 +482,10 @@ companies:
   sector: climate
   status: unknown
   source: https://www.bondcap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kobold-metals
+  slug: kobold-metals
+  matched_by: domain
 - name: Legalzoom
   url: https://legalzoom.com
   sector: legaltech
@@ -485,17 +508,19 @@ companies:
   url: https://alwayz.co
   status: unknown
   source: https://www.bondcap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: levit
+  slug: levit
+  matched_by: domain
 - name: Locusrobotics
   url: https://locusrobotics.com
   sector: robotics
   status: unknown
   source: https://www.bondcap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: locusrobotics
+  slug: locusrobotics
+  matched_by: domain
 - name: Looker
   url: https://looker.com
   status: acquired
@@ -509,9 +534,10 @@ companies:
   sector: ecommerce
   status: unknown
   source: https://www.bondcap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: materialbank
+  slug: materialbank
+  matched_by: domain
 - name: Mavenclinic
   url: https://mavenclinic.com
   sector: healthtech
@@ -537,14 +563,15 @@ companies:
   slug: multiverse
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
 - name: Myfitnesspal
   url: https://myfitnesspal.com
   status: acquired
   source: https://www.bondcap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: myfitnesspal
+  slug: myfitnesspal
+  matched_by: domain
 - name: Netlify
   url: https://netlify.com
   sector: developer-tools
@@ -568,24 +595,27 @@ companies:
   sector: ecommerce
   status: unknown
   source: https://www.bondcap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ohouse
+  slug: ohouse
+  matched_by: domain
 - name: Omio
   url: https://omio.com
   status: unknown
   source: https://www.bondcap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: omio
+  slug: omio
+  matched_by: domain
 - name: 'On'
   url: https://on-running.com
   sector: consumer
   status: unknown
   source: https://www.bondcap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: 'on'
+  slug: 'on'
+  matched_by: domain
 - name: Openai
   url: https://openai.com
   sector: ai
@@ -609,33 +639,37 @@ companies:
   sector: ecommerce
   status: unknown
   source: https://www.bondcap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: otrium
+  slug: otrium
+  matched_by: domain
 - name: Outschool
   url: https://outschool.com
   sector: edtech
   status: unknown
   source: https://www.bondcap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: outschool
+  slug: outschool
+  matched_by: domain
 - name: Partiful
   url: https://partiful.com
   sector: consumer
   status: unknown
   source: https://www.bondcap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: partiful
+  slug: partiful
+  matched_by: domain
 - name: Passes
   url: https://passes.com
   sector: creator
   status: unknown
   source: https://www.bondcap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: passes
+  slug: passes
+  matched_by: domain
 - name: Peloton
   url: https://onepeloton.com
   status: ipo
@@ -711,25 +745,27 @@ companies:
   sector: fintech
   status: unknown
   source: https://www.bondcap.com/companies
-  slug: neobanks
+  slug: revolut
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Ring
   url: https://ring.com
   status: acquired
   source: https://www.bondcap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ring
+  slug: ring
+  matched_by: domain
 - name: Robinhood
   url: https://robinhood.com
   sector: fintech
   status: ipo
   source: https://www.bondcap.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: robinhood
+  in_network: true
+  is_api_provider: true
+  slug: robinhood
+  matched_by: domain
 - name: Saildrone
   url: https://saildrone.com
   sector: robotics
@@ -753,17 +789,19 @@ companies:
   sector: hr-tech
   status: unknown
   source: https://www.bondcap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: seso
+  slug: seso
+  matched_by: domain
 - name: Sidecarhealth
   url: https://sidecarhealth.com
   sector: healthtech
   status: unknown
   source: https://www.bondcap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sidecarhealth
+  slug: sidecarhealth
+  matched_by: domain
 - name: Slack
   url: https://slack.com
   status: acquired
@@ -776,9 +814,9 @@ companies:
   url: https://snap.com
   status: ipo
   source: https://www.bondcap.com/companies
-  slug: snapchat
+  slug: snap
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: Spotify
   url: https://spotify.com
@@ -792,9 +830,10 @@ companies:
   url: https://stance.com
   status: unknown
   source: https://www.bondcap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: stance
+  slug: stance
+  matched_by: domain
 - name: Stord
   url: https://stord.com
   sector: logistics
@@ -826,9 +865,10 @@ companies:
   url: https://getsunday.com
   status: unknown
   source: https://www.bondcap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sunday
+  slug: sunday
+  matched_by: domain
 - name: Suno
   url: https://suno.com
   sector: ai
@@ -843,25 +883,28 @@ companies:
   sector: healthtech
   status: unknown
   source: https://www.bondcap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: swordhealth
+  slug: swordhealth
+  matched_by: domain
 - name: Teladoc
   url: https://teladoc.com
   sector: healthtech
   status: ipo
   source: https://www.bondcap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: teladoc
+  slug: teladoc
+  matched_by: name-slug
 - name: Tomorrow Health
   url: https://tomorrowhealth.com
   sector: healthtech
   status: unknown
   source: https://www.bondcap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tomorrow-health
+  slug: tomorrow-health
+  matched_by: domain
 - name: Toss
   url: https://toss.im
   sector: fintech
@@ -876,9 +919,10 @@ companies:
   sector: ecommerce
   status: unknown
   source: https://www.bondcap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: trendyol
+  slug: trendyol
+  matched_by: domain
 - name: Twingate
   url: https://twingate.com
   sector: security
@@ -909,33 +953,37 @@ companies:
   url: https://untuckit.com
   status: unknown
   source: https://www.bondcap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: untuckit
+  slug: untuckit
+  matched_by: domain
 - name: Vastdata
   url: https://vastdata.com
   sector: infrastructure
   status: unknown
   source: https://www.bondcap.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: vastdata
+  in_network: true
+  is_api_provider: true
+  slug: vastdata
+  matched_by: domain
 - name: Vise
   url: https://vise.com
   sector: fintech
   status: unknown
   source: https://www.bondcap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vise
+  slug: vise
+  matched_by: domain
 - name: Waze
   url: https://waze.com
   sector: mobility
   status: acquired
   source: https://www.bondcap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: waze
+  slug: waze
+  matched_by: domain
 - name: Weights & Biases
   url: https://wandb.ai
   sector: ai
@@ -968,9 +1016,10 @@ companies:
   sector: hr-tech
   status: unknown
   source: https://www.bondcap.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: workstream
+  in_network: true
+  is_api_provider: true
+  slug: workstream
+  matched_by: domain
 - name: Yassir
   url: https://yassir.com
   sector: mobility
@@ -985,9 +1034,10 @@ companies:
   sector: crypto
   status: unknown
   source: https://www.bondcap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: yuga-labs
+  slug: yuga-labs
+  matched_by: domain
 - name: Zip
   url: https://ziphq.com
   status: unknown
